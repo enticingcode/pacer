@@ -1,0 +1,25 @@
+.pace-sidebar {
+    max-width: 25vw;
+}
+
+.pace-goals ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.pace-goals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.new-pacer-btn {
+    color: white;
+    background-color: #ee7871;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+}

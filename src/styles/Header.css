@@ -1,0 +1,66 @@
+header {
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    padding: 20px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.paceLogo {
+    width: 4em;
+}
+
+.userProfile {
+    justify-content: center;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    width: 4em;
+    background-color: transparent;
+}
+
+.userProfile:hover {
+    background-color: rgb(223, 222, 222);
+}
+
+
+.HUD-popup {
+    position: fixed;
+    right: 0;
+    margin-right: 10px;
+    background-color: rgba(238, 235, 235, 0.678);
+    border: black 1px solid;
+    border-radius: 5px;
+
+}
+
+.HUD-popup * {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.HUD--container {
+    display: flex;
+    flex-direction: column;
+}
+
+.HUD--container li {
+    margin: 10px 0;
+    padding: 5px 20px;
+}
+
+.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+.hide {
+    visibility: hidden;
+    opacity: 0;
+}
